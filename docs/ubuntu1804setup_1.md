@@ -1,9 +1,7 @@
+ubuntu18.04LTSのセットアップメモ その１
 
-ubuntu18.04LTSをセットアップしたメモ
+環境：Windows10のVirtualBoxのUbuntu18.04LTS
 
-Windows10home  
-virtualbox  
-ubuntu18.04LTS
 
 16.04LTSの癌だったappstreamの問題は解決してるみたい  
 17は即行で削除したが18は使えそう?
@@ -16,12 +14,12 @@ sudo apt install openjdk-8-jdk
 Eclipseダウンロード  
 pleiadesからプラグインダウンロード
 
-eclipse解凍  
+Eclipse解凍  
 Eclipse起動確認  
 プラグイン解凍  
 eclipse.ini修正  
 eclipse -cleanで起動  
-なぜかダッシュにアイコンが登録できない
+なぜかDockにアイコンが登録できない
 
 pip3が含まれるようになったためsetuptoolsは不要ぽい
 
