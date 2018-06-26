@@ -16,10 +16,10 @@ pleiadesからプラグインダウンロード
 
 Eclipse解凍  
 Eclipse起動確認  
-プラグイン解凍  
+プラグイン解凍してEclipseのフォルダに入れる  
 eclipse.ini修正  
 eclipse -cleanで起動  
-なぜかDockにアイコンが登録できない
+なぜかDockにアイコンが登録できない(ファイルの中身が間違ってた)→<a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_2">Ubuntu18.04LTSをセットアップしたメモ２</a>  
 
 pip3が含まれるようになったためsetuptoolsは不要ぽい
 
@@ -27,6 +27,8 @@ sudo pip3 install django
 
 Eclipse起動してpydevをインストール
 
-とりあえずubuntuソフトウェアからamazonを削除
+いらないソフトウェアの削除  
+とりあえずubuntuソフトウェアからamazonを削除  
+thunderbirdやゲーム類も不要だがとりあえずほっとく
 
 <p style="text-align: center;">---<a href="https://nob0tate14.github.io/tiraura/">モドル</a>---</p>
