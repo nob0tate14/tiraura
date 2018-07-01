@@ -16,7 +16,8 @@ sudo xrandr --newmode 上のコマンドの結果
 省電力のためにWindowsもUbuntuもダークテーマにした。  
 ubuntuソフトウェアからgnome tweak toolをインストールして、暗い感じにする  
 Eclipseも外観の設定でダークテーマにする(とりあえず標準版)  
-若干見づらくなるので祈ろの設定を微調整  
+若干見づらくなるので色の設定を微調整  
+ツールバーのボタンを右縦に配置した  
 
 デフォルトのviがしょぼかったのでvimをインストール  
 sudo apt install vim  
