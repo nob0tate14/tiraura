@@ -1,6 +1,6 @@
 ubuntu18.04LTSのセットアップメモ その３
 
-jupyter-notebook等を試すためにvmを用意したメモ
+jupyter-notebook等を試すためにvmを用意して諸々をインストールしたメモ
 
 環境：Windows10のVirtualBoxのUbuntu18.04LTS
 
@@ -19,6 +19,12 @@ GuestAdditionsをインストール
 設定＞プライバシー＞画面オフ後にロックするまでの時間  
 
 sudo apt update  
-anacondaのサイトからanacondaをダウンロード  
+anacondaのサイトからanacondaのshをダウンロード  
+shに実行権限つけて実行  
+インストール後にconda activateしたら  
+.bashrcになんか追記しろと言われるので追記する  
+conda activateするとconda環境になる  
+anaconda-navigatorでanacondaの画面が起動  
+終わったらconda deactivateでconda環境抜ける  
 
 
