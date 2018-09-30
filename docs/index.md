@@ -3,6 +3,8 @@
 
 <div style="text-align: center;">NEW<br>↑</div>
 
+
+<a href="https://nob0tate14.github.io/tiraura/python-learning">機械学習の学習のメモ</a>  
 <a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_3">Ubuntu18.04LTSをセットアップしたメモ３</a>  
 <a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_2">Ubuntu18.04LTSをセットアップしたメモ２</a>  
 <a href="https://nob0tate14.github.io/tiraura/20180619_1">eclipseでgithubのコミット履歴を消してみた（ローカルファイルは残す）メモ</a>  
