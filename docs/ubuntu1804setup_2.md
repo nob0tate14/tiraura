@@ -1,28 +1,34 @@
-ubuntu18.04LTSのセットアップメモ その２
+VirtualBoxのubuntu18.04LTSにEclipseとPython開発環境をセットアップしたメモ
 
-環境：Windows10のVirtualBoxのUbuntu18.04LTS
+sudo apt install openjdk-8-jdk  
 
-ワイドディスプレイでWindows10でVirtualBoxでUbuntuでEclipseだと  
-タスクバーとかステータスバーとかタイトルバーとかなんちゃらバー的なもので高さが足りない。  
-Windowsのタスクバーを横にしたが、いまいちだったので隠れるようにした。
-VirtualBoxのメニューバーとステータスバーも非表示  
-表示する方法場合は[右ctrl]+[home]  
+Eclipseダウンロード  
+pleiadesからプラグインダウンロード
 
-VMを起動するたびにウインドウサイズが微妙なのでちょうどよいサイズを登録した。  
-xrandr  
-cvt 1400 1050  
-sudo xrandr --newmode 上のコマンドの結果  
-
-省電力のためにWindowsもUbuntuもダークテーマにした。  
-ubuntuソフトウェアからgnome tweak toolをインストールして、暗い感じにする  
-Eclipseも外観の設定でダークテーマにする(とりあえず標準版)  
-若干見づらくなるので色の設定を微調整  
-ツールバーのボタンを右縦に配置した  
-
-デフォルトのviがしょぼかったのでvimをインストール  
-sudo apt install vim  
+Eclipse解凍  
+Eclipse起動確認して一旦終了  
+プラグイン解凍してEclipseのフォルダに入れる  
+eclipse.ini修正  
 
 EclipseをDockに登録できるようにする  
-ネットを頼りに/usr/share/applicationsにeclipse.desktopを作成  
+/usr/share/applicationsにeclipse.desktopを作成  
 
-<p style="text-align: center;">---<a href="https://nob0tate14.github.io/tiraura/">モドル</a>---</p>
+eclipse -cleanで起動  
+
+
+python確認  
+python3 -V  
+Python 3.6.6  
+
+pip確認  
+which pip3  
+なければインストール  
+sudo apt install python3-pip  
+確認  
+python3 -m pip -V  
+pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)  
+which pip3  
+/usr/bin/pip3  
+
+Eclipse上でpydevをインストール  
+Pythonインタープリター追加  
