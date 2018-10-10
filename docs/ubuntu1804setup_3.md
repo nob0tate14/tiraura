@@ -1,30 +1,25 @@
-ubuntu18.04LTSのセットアップメモ その３
+VirtualBoxのUbuntu18.04LTSをちょっとだけ使いやすくしたメモ
 
-jupyter-notebook等を試すためにvmを用意して諸々をインストールしたメモ
+ワイドディスプレイでWindows10でVirtualBoxでUbuntuでEclipseだと  
+タスクバーとかステータスバーとかタイトルバーとかなんちゃらバー的なもので高さが足りない。  
+Windowsのタスクバーを横にしたが、いまいちだったので隠れるようにした。
+VirtualBoxのメニューバーとステータスバーも非表示  
+表示する方法場合は[右ctrl]+[home]  
 
-環境：Windows10のVirtualBoxのUbuntu18.04LTS
+VMを起動するたびにウインドウサイズが微妙なのでちょうどよいサイズを登録した。  
+xrandr  
+cvt 1400 1050  
+sudo xrandr --newmode 上のコマンドの結果  
 
-virtualboxの仮想マシンの設定  
-　チップセットをICH9  
-　準仮想化インターフェースをKVM→デフォルトに戻した  
-　ビデオメモリを256  
-　3Dアクセラレーションを有効→クソ重くなったので外した  
+省電力のためにWindowsもUbuntuもダークテーマにした。  
+ubuntuソフトウェアからgnome tweak toolをインストールして、暗い感じにする  
+Eclipseも外観の設定でダークテーマにする(とりあえず標準版)  
+若干見づらくなるので色の設定を微調整  
+ツールバーのボタンを右縦に配置した  
 
-以前インストールした際のISOをまた使う  
-最小インストール  
-GuestAdditionsをインストール  
-ソフトウェアの更新の設定を変えて必要なものを更新  
+デフォルトのviがしょぼかったのでvimをインストール  
+sudo apt install vim  
 
+ロック時間の調整  
 設定＞電源＞画面オフにするまでの時間  
 設定＞プライバシー＞画面オフ後にロックするまでの時間  
-
-sudo apt update  
-anacondaのサイトからanacondaのshをダウンロード  
-shに実行権限つけて実行  
-インストール後にconda activateしたら  
-.bashrcになんか追記しろと言われるので追記する  
-conda activateするとconda環境になる  
-anaconda-navigatorでanacondaの画面が起動  
-終わったらconda deactivateでconda環境抜ける  
-
-
