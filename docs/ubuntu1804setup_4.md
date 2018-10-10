@@ -1,17 +1,11 @@
-ubuntu18.04LTSのセットアップメモ その４
+jupyter-notebook等を試すためにanacondaをインストールしたメモ
 
-ディスク容量の増加
-
-環境：Windows10のVirtualBoxのUbuntu18.04LTS
-
-使ってたら残り0と言われた。  
-ゴミ箱は空だった。  
-ダウンロードフォルダにanacondaがあったので削除した。  
-シャットダウン  
-仮想メディアマネージャーでディスクサイズを20Gにした。  
-起動  
-gpartedインストール  
-sudo apt install gparted  
-gparted起動  
-ubuntu18.04のデフォルトインストールでは、swap領域はパーティションではなくファイルになっており、割り当て済みのパーティションは一つだけだった。  
-いっぱいまで広げて適用  
+VirtualBoxに新たにUbuntu18.04LTSを用意し最小インストール。  
+sudo apt update  
+anacondaのサイトからanacondaのshをダウンロード  
+shに実行権限つけて実行  
+インストール後にconda activateしたら  
+.bashrcになんか追記しろと言われるので追記する  
+conda activateするとconda環境になる  
+anaconda-navigatorでanacondaの画面が起動  
+終わったらconda deactivateでconda環境抜ける  
