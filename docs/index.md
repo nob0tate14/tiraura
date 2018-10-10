@@ -3,7 +3,8 @@
 
 <div style="text-align: center;">NEW<br>↑</div>
 
-<a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_4">Ubuntu18.04LTSをセットアップしたメモ４</a>  
+<a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_5">VirtualBoxのUbuntu18.04LTSのディスク容量を増やしたメモ</a>  
+<a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_4">jupyter-notebook等を試すためにanacondaをインストールしたメモ</a>  
 <a href="https://nob0tate14.github.io/tiraura/python-learning">機械学習の学習のメモ</a>  
 <a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_3">VirtualBoxのUbuntu18.04LTSをちょっとだけ使いやすくしたメモ</a>  
 <a href="https://nob0tate14.github.io/tiraura/ubuntu1804setup_2">VirtualBoxのubuntu18.04LTSにEclipseとPython開発環境をセットアップしたメモ</a>  
