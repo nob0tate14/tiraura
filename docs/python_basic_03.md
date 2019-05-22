@@ -1,5 +1,10 @@
 # プログラム初心者がpythonを学ぶ。またはpythonを題材にプログラムを学ぶ Part3
 
+twitterのAPIを利用してみる。     
+1.twitterの開発者アカウントを作成  
+2.twitter-apiのアクセスキーを取得  
+3.twitter-apiを利用  
+
 config.py  
 ```
 CONSUMER_KEY = "xxx"
@@ -31,7 +36,7 @@ def get_timeline(count):
     res = twitter.get(url, params = params)
     print(res)
     print(res.text)
-    if res.status_code == 200:合
+    if res.status_code == 200:
         timeline = json.loads(res.text)
         return timeline
     else:
